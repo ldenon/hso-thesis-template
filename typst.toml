@@ -1,0 +1,17 @@
+[package]
+name = "hso-thesis-template"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Lucas Denon"]
+license = "MIT-0"
+description = "Unofficial Typst thesis template for Hochschule Offenburg"
+repository = "https://github.com/ldenon/hso-thesis-template"
+categories = ["thesis"]
+keywords = ["HSO", "Offenburg","Bachelor", "Master"]
+compiler = "0.13.1"
+exclude = [".gitignore"]
+
+[template]
+path = "template"
+entrypoint = "hso-thesis.typ"
+thumbnail = "thumbnail.png"
